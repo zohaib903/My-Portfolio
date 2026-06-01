@@ -1,0 +1,43 @@
+/* custom styles (bootstrap ke sath) */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fb;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    color: #ff7a18;
+}
+
+/* Skills cards */
+.skill-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-bar {
+    height: 8px;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #ff7a18, #ffb347);
+    transition: width 1.5s ease;
+}
